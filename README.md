@@ -22,6 +22,10 @@ We don't plan to add any new functionality, and expect that it will fall behind 
 That said, if you're reading this and you need this gem to do something new, feel free to fork it and publish your own gem!
 If you open an issue here to let us know about your fork, we can add a link to it from this repo to help folks find something that's more actively maintained.
 
+### Retry using RSpec core
+
+RSpec Core has a --only-failures option that will run previous fails as an alternative to this gem. See rspec --help.
+
 ## Installation
 
 Add this line to your application's Gemfile:
